@@ -1,5 +1,4 @@
 import { Schema, model, models } from "mongoose";
-import { use } from "react";
 
 const UserSchema = new Schema({
   clerkId: { type: String, required: true, unique: true },
